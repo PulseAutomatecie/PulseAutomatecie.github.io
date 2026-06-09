@@ -1,0 +1,7 @@
+
+    --- Rapport Comptable PulseAutomate ---
+    Date du rapport : 2026-06-09 18:07:39
+    Nombre total de ventes : 1
+    Chiffre d'Affaires total : 99.99 €
+    ---------------------------------------
+    

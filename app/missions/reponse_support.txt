@@ -1,0 +1,14 @@
+Objet : Suivi de votre demande d'analyse du cycle
+
+Bonjour [Nom du client],
+
+Je me permets de vous recontacter suite à votre message du [Date] concernant l'analyse de votre cycle dans PulseAutomate. Nous avons pris en compte votre demande et effectué les vérifications nécessaires pour satisfaire vos besoins.
+
+Je vous informe que notre analyse a été terminée avec succès. [Décrivez les résultats de l'analyse et mentionnez si des correctifs ou des actions supplémentaires sont nécessaires].
+
+Si vous avez des questions ou si vous souhaitez des informations complémentaires sur les résultats, n'hésitez pas à me contacter. Je serai ravi de vous aider.
+
+Cordialement,
+[Votre nom]
+Responsable support client - PulseAutomate
+[Téléphone] [Adresse e-mail]

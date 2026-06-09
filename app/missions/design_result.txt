@@ -1,0 +1,73 @@
+Voici la charte graphique définie pour le service de drop-servicing B2B professionnel :
+
+**Palette de couleurs**
+
+* Bleu marine : `#4567b7` (utilisé pour les éléments principaux et les boutons de navigation)
+* Blanc : `#ffffff` (utilisé pour les éléments de fond et les zones de texte)
+* Or : `#ffd700` (utilisé pour les boutons d'appel à l'action et les éléments de mise en avant)
+* Orange : `#ffa07a` (utilisé pour les éléments de mise en avant et les alertes)
+
+**Typographie**
+
+* Inter (police principale)
+* Montserrat (police de secours)
+
+**Hiérarchie**
+
+* Boutons d'appel à l'action (CTA) à haut contraste :
+ + Couleur de fond : `bg-orange-500` (`#ffa07a`)
+ + Couleur de texte : `text-white` (`#ffffff`)
+ + Taille des boutons : `text-lg` ou supérieure
+* Zones de texte principale :
+ + Police : `font-sans` (Inter)
+ + Taille : `text-2xl` ou supérieure
+ + Couleur de texte : `text-gray-900` (`#1a1d23`)
+* Zones de texte secondaire :
+ + Police : `font-sans` (Inter)
+ + Taille : `text-lg`
+ + Couleur de texte : `text-gray-600` (`#333333`)
+
+**Ambiance**
+
+* Épurée : utiliser les marges et les paddings pour créer une espace entre les éléments
+* Rassurante : utiliser des éléments visuels pour créer une atmosphère de confiance
+* Haut de gamme : utiliser des éléments visuels pour créer une atmosphère de luxe et de sophistication
+* Orientée conversion : utiliser des éléments visuels pour inciter à l'action
+
+**Exemples de classes Tailwind CSS**
+
+```css
+/* Boutons d'appel à l'action (CTA) */
+<button
+  class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full"
+>
+  Découvrez notre service
+</button>
+
+/* Zones de texte principale */
+<h1
+  class="text-4xl font-bold leading-tight text-gray-900"
+>
+  Notre service de drop-servicing B2B
+</h1>
+
+/* Zones de texte secondaire */
+<p
+  class="text-lg leading-relaxed text-gray-600 mb-4"
+>
+  Notre service vous permet de profiter d'une gamme de services de haute qualité sans avoir à gérer les coûts et les risques associés à la création et à la gestion d'une équipe interne.
+</p>
+
+/* Éléments de mise en avant */
+<section
+  class="bg-white rounded-lg shadow-lg p-4 mx-auto max-w-md"
+>
+  <h2
+    class="text-2xl font-bold leading-tight text-orange-500"
+  >
+    Notre service est conçue pour vous aider à atteindre vos objectifs de croissance
+  </h2>
+</section>
+```
+
+Notez que ces classes sont juste des exemples et qu'elles peuvent être ajustées en fonction de vos besoins spécifiques. Il est également important de tester la charte graphique avec différents éléments et composants pour s'assurer qu'elle répond à vos objectifs.

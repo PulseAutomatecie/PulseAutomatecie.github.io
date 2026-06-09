@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/root/production/drop-servicing-1/app/webhook.py", line 2, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'webhook'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [08/Jun/2026 23:35:53] "POST /webhook HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/production/drop-servicing-1/app/pdg.py", line 7, in <module>
+    from app.agents.analyste import executer_tache_analyste
+  File "/root/production/drop-servicing-1/app/agents/analyste.py", line 2, in <module>
+    from groq import Groq
+ModuleNotFoundError: No module named 'groq'

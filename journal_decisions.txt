@@ -1,0 +1,13 @@
+Décision prise le 2026-06-08 : <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta ...
+Décision prise le 2026-06-08 : <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta ...
+Cycle de production terminé avec succès.
+Cycle de production terminé avec succès.
+Cycle complet (Marketing+Vente+Code) terminé.
+Cycle complet (Analyste->Marketing->Vente->Code) terminé.
+Cycle complet (Analyste->Designer->Marketing->Vente->Com->Code) terminé.
