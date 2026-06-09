@@ -22,13 +22,29 @@
 
     <script src="https://js.stripe.com/v3"></script>
     <script>
-        const stripe = Stripe('pk_test_VOTRE_CLE_PUBLIQUE'); // Remplace par ta vraie clé publique
+        // Remplace par ta vraie clé publique Stripe
+        const stripe = Stripe('pk_test_51TgQQn97qkx4WJ1pnGtlZsfMEFJO3LRgDEgXen8fBEX4N5dVM6Ert8RwaCwEZL3SILCKBPBNkHQYJOcbe8naMnKy00wWlhm2Py'); 
         const button = document.getElementById('checkout-button');
 
         button.addEventListener('click', async () => {
-            const response = await fetch('http://localhost:5001/create-checkout-session', { method: 'POST' });
-            const session = await response.json();
-            stripe.redirectToCheckout({ sessionId: session.id });
+            try {
+                // Appel vers ton serveur sur ton IP publique
+                const response = await fetch('http://213.199.46.218:5001/create-checkout-session', { 
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const session = await response.json();
+                
+                if (session.id) {
+                    stripe.redirectToCheckout({ sessionId: session.id });
+                } else {
+                    console.error("Erreur: Aucun ID de session reçu", session);
+                }
+            } catch (error) {
+                console.error("Erreur lors de la connexion au serveur:", error);
+                alert("Impossible de contacter le serveur de paiement. Vérifie que le serveur est bien lancé sur le VPS.");
+            }
         });
     </script>
 </body>
